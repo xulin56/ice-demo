@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    ["build-plugin-fusion", {
+      "themePackage": [{
+        "name": "@alifd/theme-design-pro",
+        "default": true,
+        "themeConfig": {
+          "custom-color": "#000"
+        }
+      }, {
+        "name": "@alifd/theme-ice-orange",
+        "themeConfig": {
+          "custom-color": "#fff"
+        }
+      }]
+    }]
+  ]
+}
